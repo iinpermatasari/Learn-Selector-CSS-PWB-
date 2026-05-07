@@ -1,0 +1,22 @@
+/* 1. Element Selector */
+html { scroll-behavior: smooth; }
+/* 2. Class Selector */
+.wrapper { max-width: 800px; margin: auto; padding: 20px; background: #e8f5e9; }
+/* 3. Class Selector untuk Judul */
+.title { color: #2e7d32; text-shadow: 1px 1px 2px #999; }
+/* 4. Class Selector untuk Card */
+.card { background: white; padding: 20px; border-left: 10px solid #2e7d32; }
+/* 5. Class Selector untuk Grid */
+.box-grid { display: flex; gap: 10px; margin-top: 15px; }
+/* 6. Descendant Selector */
+.box-grid .item { width: 50px; height: 50px; background: #a5d6a7; text-align: center; line-height: 50px; }
+/* 7. Pseudo-class :last-child */
+.item:last-child { background: #66bb6a; color: white; }
+/* 8. Class Selector untuk Footer */
+.footer-note { margin-top: 20px; font-style: italic; border-top: 1px solid #ccc; }
+/* 9. Pseudo-class :visited */
+.btn-link:visited { color: purple; }
+/* 10. Class Selector untuk Link Button */
+.btn-link { display: inline-block; margin-top: 10px; color: #2e7d32; text-decoration: none; border: 1px solid #2e7d32; padding: 5px 10px; font-size: small; }
+/* 11. link */
+.btn-link:hover { background: #2e7d32; color: white; }
